@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+body
+{
+    overflow-x: hidden;
+}
+#navbar
+{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.menu-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.menu-list li
+{
+    list-style-type:none;
+    margin: 7px;
+    padding: 7px;
+    color: white;
+    text-align: center;
+    /* border: 3px solid red; */
+    font-size: 22px;
+}
+.active
+{
+    border: 3px solid white;
+    background-color: red;
+    border-radius: 1rem;
+}
+/* background  */
+.back-img
+{
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#bi-1
+{
+    background-image: url("Pictures/avenue-gdc325ac71_1920.jpg");
+
+}
+#bi-2
+{
+    background-image: url("Pictures/bridge-g6c5203ec7_1920.jpg");
+}
+#bi-3
+{
+    background-image: url("Pictures/fantasy-g6aba0cb96_1920.jpg");
+}
+#bi-4
+{
+    background-image: url("Pictures/mountain-landscape-g0483b79e6_1920.jpg");
+}
+#bi-5
+{
+    background-image: url("Pictures/mountains-g8e82a2ef9_1280.jpg");
+}
+#bi-6
+{
+    background-image: url("Pictures/nature-wallpaper-g4dd462b57_1920.jpg");
+}
+#bi-7
+{
+    background-image: url("Pictures/railroad-g588dad19e_1280.jpg");
+}
+#bi-8
+{
+    background-image: url("Pictures/road-gfa5638a35_1920.jpg");
+}
+.text
+{
+    padding: 55px;
+    height: 100vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.heading
+{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+.paragraph
+{
+    line-height: 2rem;
+    font-size: 18px;
+    text-align: justify;
+}
